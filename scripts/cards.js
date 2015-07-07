@@ -1,10 +1,10 @@
 /*
  * Playing Card Data and Methods
  * 
- * Make sure you have loaded the utility library LoDash in order to use this.
+ * Make sure you have loaded the utility library Lodash in order to use this.
  * 
+ * - https://lodash.com (documentation)
  * - https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.js
- * - https://lodash.com
  * 
  * This library adds two global variables and five global functions:
  * 
@@ -37,6 +37,7 @@ var deckOfCards,
     resetDeckOfCards,
     _ = _ || undefined;
 
+// ensure that Lodash is loaded before defining methods that use it
 if (!isFunction(_)) {
   console.log("> ERROR: make sure that you load lodash with a script tag before card.js!");
   console.log("> Lodash can be found at: cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.js");
@@ -46,8 +47,9 @@ if (!isFunction(_)) {
   // always load lodash for its methods "shuffle", "sortBy" and "sample" 
   // (pick random)
   // shuffle: https://lodash.com/docs#shuffle
-  // sample:  https://lodash.com/docs#sample
   // sortBy:  https://lodash.com/docs#sortBy
+  // sample:  https://lodash.com/docs#sample
+  // remove:  https://lodash.com/docs#remove
   
   var cards = [
     "dA","dK","dQ","dJ","d10","d09","d08","d07","d06","d05","d04","d03","d02",
