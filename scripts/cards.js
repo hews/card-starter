@@ -6,19 +6,20 @@
  * - https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.js
  * - https://lodash.com
  * 
- * This library adds two global variables and four global functions:
+ * This library adds two global variables and five global functions:
  * 
  * (variable) deckOfCards:    a single deck that represents the working deck
  * (variable) deckIsShuffled: a bool describing if the deck is shuffled or 
  *                            sorted
  *
- * (function) dealDeck:   returns a fully sorted, full deck of cards, use it as
- *                        `var deckOfCards = dealDeck();` to reset the deck!
- * (function) shuffle:    shuffle (or re-shuffle) the current deckOfCards
- * (function) sort:       sort the current deckOfCards
- * (function) pickRandom: pick a random card from the deckOfCards - only useful
- *                        when the deck is sorted, since you can just pop
- *                        off of the top of a shuffled deck!
+ * (function) shuffle:          shuffle (or re-shuffle) the current deckOfCards
+ * (function) sort:             sort the current deckOfCards
+ * (function) pickRandom:       pick a random card from the deckOfCards - only 
+ *                              useful when the deck is sorted, since you can 
+ *                              just pop off of the top of a shuffled deck!
+ * (function) dealDeck:         returns a full deck of cards, sorted
+ * (function) resetDeckOfCards: resets the deckOfCards to a full deck, sorted
+ *
  */
 
 function isFunction(functionToCheck) {
@@ -33,6 +34,7 @@ var deckOfCards,
     sort,
     pickRandom,
     dealDeck,
+    resetDeckOfCards,
     _ = _ || undefined;
 
 if (!isFunction(_)) {
@@ -59,8 +61,12 @@ if (!isFunction(_)) {
   };
 
   dealDeck = function() {
-    deckIsShuffled = false;
     return cards;
+  }
+
+  resetDeckOfCards = function() {
+    deckIsShuffled = false;
+    return deckOfCards = dealDeck();
   }
 
   shuffle = function() {
@@ -79,10 +85,5 @@ if (!isFunction(_)) {
     return card;
   };
 
-  deckOfCards = dealDeck();
+  resetDeckOfCards();
 }
-
-
-
-
-
