@@ -56,7 +56,7 @@ if (!isFunction(_)) {
     "cA","cK","cQ","cJ","c10","c09","c08","c07","c06","c05","c04","c03","c02",
     "hA","hK","hQ","hJ","h10","h09","h08","h07","h06","h05","h04","h03","h02",
     "sA","sK","sQ","sJ","s10","s09","s08","s07","s06","s05","s04","s03","s02"
-  ];
+  ]; // jW, jR, jB
 
   var cardValue = function(card) {
     return cards.indexOf(card);
