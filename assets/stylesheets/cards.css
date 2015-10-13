@@ -243,6 +243,10 @@ body {
   background-image: url(../images/clubs/clubs-r02.svg);
 }
 
+.card.joker       { background-image: url(../images/jokers/joker.svg); }
+.card.joker-black { background-image: url(../images/jokers/joker-black.svg); }
+.card.joker-red   { background-image: url(../images/jokers/joker-red.svg);  }
+
 .card.back      { background-image: url(../images/backs/blue.svg); }
 .card.back-blue { background-image: url(../images/backs/blue.svg); }
 .card.back-red  { background-image: url(../images/backs/red.svg);  }
