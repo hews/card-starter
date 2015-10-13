@@ -9,20 +9,21 @@ standard, 52-card deck.
 
 Several quick start options are available:
 
-* [Download the latest release](https://github.com).
-* Clone the repo: `git clone https://github.com/h4w5/card-starter.git`.
-* ~~Install with [Bower](http://bower.io): `bower install`~~
-* ~~Install with [npm](https://www.npmjs.com): `npm install`~~
+- **[Download the latest release][release].**
+- Clone the repo: `git clone https://github.com/h4w5/card-starter.git`.
+- ~~Install with [Bower](http://bower.io): `bower install`~~
+- ~~Install with [npm](https://www.npmjs.com): `npm install`~~
 
-~~Read the [Getting started page](http://h4w5.github.io/card-starter) for~~
+~~Read the [Getting started page][site] for~~
 ~~information on the framework contents, templates and examples, and more.~~
 
 ## Examples
 
 For an example of how to load and use the Card Starter, see the 
-[example.html](example.html) file.
+[example.html](example.html) file. The example is hosted on 
+[GitHub][site].
 
-- Complete explanation...
+- *Complete explanation...*
 
 <!--
 ## Recommended external libraries
@@ -51,3 +52,6 @@ CRight & License
 Code and documentation copyright 2015 Philip Hughes. Code released under the 
 MIT license (link). Docs released under Creative Commons (link).
 -->
+
+[site]:    http://h4w5.github.io/card-starter
+[release]: https://github.com/h4w5/card-starter/archive/v0.1.0.zip
