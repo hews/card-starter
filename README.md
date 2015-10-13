@@ -5,35 +5,31 @@
 Quick start templates for creating browser-based games that rely upon a 
 standard, 52-card deck.
 
-- Getting Started
-  - Downloading
-  - Bower/NPM
-- Examples
+## Getting started
+
+Several quick start options are available:
+
+* [Download the latest release](https://github.com).
+* Clone the repo: `git clone https://github.com/.git`.
+* Install with [Bower](http://bower.io): `bower install`
+* Install with [npm](https://www.npmjs.com): `npm install`
+
+Read the [Getting started page](http://h4w5.github.io/card-starter) for information on the framework contents, templates and examples, and more.
+
+## Examples
+
   - Simple
   - Complete
-- What's included (tree and explanation)
-  - Images (SVGs)
-    - Versions
-      - ...
-      - ...
-      - ...
-  - Stylesheets
-    - Basic (w/ Normalize)
-    - Alternates
-  - Scripts
-    - Basic model
-    - Basic model (w/ Hand-rolled Helpers)
-    - Object model simple
-    - Full object model
-- External Solutions
+
+## Recommended external libraries
+
   - Normalize.css
   - Animate.css
   - Underscore
   - LoDash
-- Suggested Combinations
-  - Simple
-  - Complete
-- Customizing
+
+## Customizing
+
   - Safe Characters (using c instead of ♣, eg)
   - Jokers
   - Bridge mode 
@@ -41,6 +37,10 @@ standard, 52-card deck.
   - Decks
     - Euchre & Pinochle
     - etc.
+
+## Creators and attribution
+
+...
 
 CRight & License
 
