@@ -46,10 +46,38 @@ For an example of how to load and use the Card Starter, see the
 
 ...
 
+  5. Combined Libraries.
+
+  You may place library facilities that are a work based on the
+Library side by side in a single library together with other library
+facilities that are not Applications and are not covered by this
+License, and convey such a combined library under terms of your
+choice, if you do both of the following:
+
+   a) Accompany the combined library with a copy of the same work based
+   on the Library, uncombined with any other library facilities,
+   conveyed under the terms of this License.
+
+   b) Give prominent notice with the combined library that part of it
+   is a work based on the Library, and explaining where to find the
+   accompanying uncombined form of the same work.
+
+c) For a Combined Work that displays copyright notices during
+   execution, include the copyright notice for the Library among
+   these notices, as well as a reference directing the user to the
+   copies of the GNU GPL and this license document.
+
+
+
 CRight & License
 
 Code and documentation copyright 2015 Philip Hughes. Code released under the 
 MIT license (link). Docs released under Creative Commons (link).
+
+Vectorized Playing Cards 2.0 - http://sourceforge.net/projects/vector-cards/
+Copyright 2015 - Chris Aguilar
+Licensed under LGPL 3 - www.gnu.org/copyleft/lesser.html
+
 -->
 
 [site]:    http://h4w5.github.io/card-starter
