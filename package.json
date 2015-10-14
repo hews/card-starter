@@ -1,0 +1,22 @@
+{
+  "name": "card-starter",
+  "version": "0.1.0",
+  "description": "Quick start templates for browser-based games that use a standard, 52-card deck.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h4w5/card-starter.git"
+  },
+  "author": "Philip Hughes <p+npm@hews.co> (http://hews.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h4w5/card-starter/issues"
+  },
+  "homepage": "https://github.com/h4w5/card-starter#readme"
+}
