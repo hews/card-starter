@@ -20,8 +20,7 @@ Several quick start options are available:
 ## Examples
 
 For an example of how to load and use the Card Starter, see the 
-[example.html](example.html) file. The example is hosted on 
-[GitHub][site].
+[examples](examples) file, or visit the [website][site].
 
 - *Complete explanation...*
 
