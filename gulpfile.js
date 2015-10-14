@@ -1,8 +1,10 @@
-var gulp          = require('gulp-help')(require('gulp'));
-var scsslint      = require('gulp-scss-lint');
+var gulp     = require('gulp-help')(require('gulp'));
+var scsslint = require('gulp-scss-lint');
 
-// var rename     = require('gulp-rename');
-// var sass       = require('gulp-sass');
+var changed  = require('gulp-changed');
+var rename   = require('gulp-rename');
+
+var sass       = require('gulp-sass');
 // var imagemin   = require('gulp-imagemin');
 // var concat     = require('gulp-concat');
 // var uglify     = require('gulp-uglify');
@@ -11,14 +13,15 @@ var scsslint      = require('gulp-scss-lint');
 var del = require('del');
 
 var paths = {
-  source:     'source/**/*',
-  sourceHtml: 'source/*.html',
-  sourceScss: 'source/scss/**/*.scss',
-  sourceSvgs: 'source/images/**/*.svg',
-  dist:       'dist/**/*',
-  distCSS:    'dist/css/**/*',
-  distSvgs:   'dist/images/**/*',
-  examples:   'examples/**/*'
+  source:      'source/**/*',
+  sourceHtml:  'source/*.html',
+  sourceScss:  'source/scss/**/*.scss',
+  sourceSvgs:  'source/images/**/*.svg',
+  dist:        'dist',
+  distCss:     'dist/css',
+  distSvgs:    'dist/images/**/*',
+  examples:    'examples',
+  examplesCss: 'examples/css'
 };
 
 gulp.task('clean', function() {
@@ -29,6 +32,22 @@ gulp.task('lint', function() {
   return gulp.src(paths.sourceScss)
     .pipe(scsslint());
 });
+
+gulp.task('html', function () {
+  gulp.src(paths.sourceHtml)
+    .pipe(rename('index.html'))
+    // .pipe(changes(paths.dist))
+    .pipe(gulp.dest(paths.examples))
+});
+gulp.task('example', ['html']);
+
+gulp.task('build-css', function () {
+  gulp.src(paths.sourceScss)
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest(paths.distCss))
+    .pipe(gulp.dest(paths.examplesCss))
+});
+gulp.task('sass', ['lint', 'build-css']);
 
 // gulp.task('scripts', ['clean'], function() {
 //   // Minify and copy all JavaScript (except vendor scripts)
@@ -57,3 +76,5 @@ gulp.task('lint', function() {
 // });
 
 gulp.task('default', ['help']);
+
+// gulp.task('watch')

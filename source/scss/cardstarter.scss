@@ -333,8 +333,8 @@ body {
   transform: rotate(270deg);
   margin: auto 0.75em;
 }
-.card.east:.shadow,
-.card.E:.shadow {
+.card.east.shadow,
+.card.E.shadow {
   -webkit-box-shadow: -2px 2px 3px 0 $shadow-color;
   -moz-box-shadow:    -2px 2px 3px 0 $shadow-color;
   box-shadow:         -2px 2px 3px 0 $shadow-color;
