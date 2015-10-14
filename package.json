@@ -18,5 +18,17 @@
   "bugs": {
     "url": "https://github.com/h4w5/card-starter/issues"
   },
-  "homepage": "https://github.com/h4w5/card-starter#readme"
+  "homepage": "https://github.com/h4w5/card-starter#readme",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-help": "^1.6.1",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-scss-lint": "^0.3.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.2"
+  }
 }
