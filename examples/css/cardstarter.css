@@ -286,30 +286,27 @@ body {
 .card.W {
   transform: rotate(90deg);
   margin: auto 0.75em; }
-
-.card.west.shadow,
-.card.W.shadow {
-  -webkit-box-shadow: 2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-  box-shadow: 2px -2px 3px 0 rgba(0, 0, 0, 0.75); }
+  .card.west.shadow,
+  .card.W.shadow {
+    -webkit-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75); }
 
 .card.north,
 .card.N {
   transform: rotate(180deg); }
-
-.card.north.shadow,
-.card.N.shadow {
-  -webkit-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-  box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75); }
+  .card.north.shadow,
+  .card.N.shadow {
+    -webkit-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75); }
 
 .card.east,
 .card.E {
   transform: rotate(270deg);
   margin: auto 0.75em; }
-
-.card.east.shadow,
-.card.E.shadow {
-  -webkit-box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.75);
-  box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.75); }
+  .card.east.shadow,
+  .card.E.shadow {
+    -webkit-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75); }

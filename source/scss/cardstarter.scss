@@ -299,46 +299,51 @@ body {
 .card.back-red  { background-image: url("../images/backs/red.svg"); }
 // scss-lint:enable SpaceBeforeBrace
 
+// scss-lint:enable MergeableSelector
+
 /* re-orient cards */
 /* while they are symmetric, it's still
    important to orient them correctly in
    case text or other symbols are layered
    on them with CSS pseudo-selectors, new
    classes/rules, etc. */
+
 .card.west,
 .card.W {
   transform: rotate(90deg);
   margin: auto 0.75em;
-}
-.card.west.shadow,
-.card.W.shadow {
-  -webkit-box-shadow: 2px -2px 3px 0 $shadow-color;
-  -moz-box-shadow:    2px -2px 3px 0 $shadow-color;
-  box-shadow:         2px -2px 3px 0 $shadow-color;
+
+  &.shadow {
+    -webkit-box-shadow: -2px -2px 3px 0 $shadow-color;
+    -moz-box-shadow:    -2px -2px 3px 0 $shadow-color;
+    box-shadow:         -2px -2px 3px 0 $shadow-color;
+  }
+
 }
 
 .card.north,
 .card.N {
   transform: rotate(180deg);
-}
-.card.north.shadow,
-.card.N.shadow {
-  -webkit-box-shadow: -2px -2px 3px 0 $shadow-color;
-  -moz-box-shadow:    -2px -2px 3px 0 $shadow-color;
-  box-shadow:         -2px -2px 3px 0 $shadow-color;
+
+  &.shadow {
+    -webkit-box-shadow: -2px -2px 3px 0 $shadow-color;
+    -moz-box-shadow:    -2px -2px 3px 0 $shadow-color;
+    box-shadow:         -2px -2px 3px 0 $shadow-color;
+  }
 }
 
 .card.east,
 .card.E {
   transform: rotate(270deg);
   margin: auto 0.75em;
+
+  &.shadow {
+    -webkit-box-shadow: -2px -2px 3px 0 $shadow-color;
+    -moz-box-shadow:    -2px -2px 3px 0 $shadow-color;
+    box-shadow:         -2px -2px 3px 0 $shadow-color;
+  }
 }
-.card.east.shadow,
-.card.E.shadow {
-  -webkit-box-shadow: -2px 2px 3px 0 $shadow-color;
-  -moz-box-shadow:    -2px 2px 3px 0 $shadow-color;
-  box-shadow:         -2px 2px 3px 0 $shadow-color;
-}
+
 // scss-lint:disable EmptyRule
 .card.south,
 .card.S {}
