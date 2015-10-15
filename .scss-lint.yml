@@ -1,4 +1,9 @@
 linters:
+  StringQuotes:
+    style: double_quotes
+  SpaceAfterPropertyColon:
+    enabled: false
+
   SelectorFormat:
     enabled: false
   SingleLinePerSelector:
@@ -12,10 +17,6 @@ linters:
   ColorKeyword:
     enabled: false
   Comment:
-    enabled: false
-  StringQuotes:
-    style: double_quotes
-  SpaceAfterPropertyColon:
     enabled: false
   EmptyLineBetweenBlocks:
     enabled: false
