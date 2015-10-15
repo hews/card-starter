@@ -1,10 +1,8 @@
-
-$goldenrod-color: goldenrod;
-$gray-color:      gray;
-$red-color:       red;
-$white-color:     white;
-$black-color:     black;
-$obscured-color:  rgba(200, 200, 200, 0.20);
+$goldenrod: #daa520;
+$off-white: #f4f4f4;
+$obscured:  #c3c3c3;
+$white:     #fff;
+$black:     #292929;
 
 .card {
   box-sizing: border-box;
@@ -19,9 +17,9 @@ $obscured-color:  rgba(200, 200, 200, 0.20);
   height: 5.5em;
 
   /* add a default background and border radius */
-  background-color: $white-color;
+  background-color: $white;
   border-radius:    0.20em;
-  border:           1px solid rgba($black-color, 0.2);
+  border:           1px solid $obscured;
 
   /* scale and place the background */
   background-image:    url("../images/playing_cards/blue.svg");
@@ -51,17 +49,17 @@ $obscured-color:  rgba(200, 200, 200, 0.20);
 
   /* a drop-shadow */
   &.shadow {
-    -webkit-box-shadow: 2px 2px 3px 0 rgba($black-color, 0.75);
-    -moz-box-shadow:    2px 2px 3px 0 rgba($black-color, 0.75);
-    box-shadow:         2px 2px 3px 0 rgba($black-color, 0.75);
+    -webkit-box-shadow: 2px 2px 3px 0 rgba($black, 0.75);
+    -moz-box-shadow:    2px 2px 3px 0 rgba($black, 0.75);
+    box-shadow:         2px 2px 3px 0 rgba($black, 0.75);
   }
 
   /* an outline, as if highlighting an empty pile */
   &.outline {
     background-image: none;
-    background-color: $obscured-color;
+    background-color: rgba($obscured, 0.50);
 
-    border:     0.15em dashed $goldenrod-color;
+    border:     0.15em dashed $goldenrod;
   }
 
   /* for debugging */
@@ -256,9 +254,9 @@ $obscured-color:  rgba(200, 200, 200, 0.20);
   margin: auto 0.75em;
 
   &.shadow {
-    -webkit-box-shadow: -2px -2px 3px 0 rgba($black-color, 0.75);
-    -moz-box-shadow:    -2px -2px 3px 0 rgba($black-color, 0.75);
-    box-shadow:         -2px -2px 3px 0 rgba($black-color, 0.75);
+    -webkit-box-shadow: -2px -2px 3px 0 rgba($black, 0.75);
+    -moz-box-shadow:    -2px -2px 3px 0 rgba($black, 0.75);
+    box-shadow:         -2px -2px 3px 0 rgba($black, 0.75);
   }
 
 }
@@ -268,9 +266,9 @@ $obscured-color:  rgba(200, 200, 200, 0.20);
   transform: rotate(180deg);
 
   &.shadow {
-    -webkit-box-shadow: -2px -2px 3px 0 rgba($black-color, 0.75);
-    -moz-box-shadow:    -2px -2px 3px 0 rgba($black-color, 0.75);
-    box-shadow:         -2px -2px 3px 0 rgba($black-color, 0.75);
+    -webkit-box-shadow: -2px -2px 3px 0 rgba($black, 0.75);
+    -moz-box-shadow:    -2px -2px 3px 0 rgba($black, 0.75);
+    box-shadow:         -2px -2px 3px 0 rgba($black, 0.75);
   }
 }
 
@@ -280,9 +278,9 @@ $obscured-color:  rgba(200, 200, 200, 0.20);
   margin: auto 0.75em;
 
   &.shadow {
-    -webkit-box-shadow: -2px -2px 3px 0 rgba($black-color, 0.75);
-    -moz-box-shadow:    -2px -2px 3px 0 rgba($black-color, 0.75);
-    box-shadow:         -2px -2px 3px 0 rgba($black-color, 0.75);
+    -webkit-box-shadow: -2px -2px 3px 0 rgba($black, 0.75);
+    -moz-box-shadow:    -2px -2px 3px 0 rgba($black, 0.75);
+    box-shadow:         -2px -2px 3px 0 rgba($black, 0.75);
   }
 }
 

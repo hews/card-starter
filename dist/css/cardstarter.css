@@ -8,9 +8,9 @@
   width: 4.0em;
   height: 5.5em;
   /* add a default background and border radius */
-  background-color: white;
+  background-color: #fff;
   border-radius: 0.20em;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #c3c3c3;
   /* scale and place the background */
   background-image: url("../images/playing_cards/blue.svg");
   background-repeat: no-repeat;
@@ -32,13 +32,13 @@
   .card.xlarge {
     font-size: 42px; }
   .card.shadow {
-    -webkit-box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.75);
-    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.75); }
+    -webkit-box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75);
+    -moz-box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75);
+    box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75); }
   .card.outline {
     background-image: none;
-    background-color: rgba(200, 200, 200, 0.2);
-    border: 0.15em dashed goldenrod; }
+    background-color: rgba(195, 195, 195, 0.5);
+    border: 0.15em dashed #daa520; }
   .card.no-border {
     border: 0; }
 
@@ -228,18 +228,18 @@
   margin: auto 0.75em; }
   .card.west.shadow,
   .card.W.shadow {
-    -webkit-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-    box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75); }
+    -webkit-box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75);
+    -moz-box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75);
+    box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75); }
 
 .card.north,
 .card.N {
   transform: rotate(180deg); }
   .card.north.shadow,
   .card.N.shadow {
-    -webkit-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-    box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75); }
+    -webkit-box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75);
+    -moz-box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75);
+    box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75); }
 
 .card.east,
 .card.E {
@@ -247,6 +247,6 @@
   margin: auto 0.75em; }
   .card.east.shadow,
   .card.E.shadow {
-    -webkit-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75);
-    box-shadow: -2px -2px 3px 0 rgba(0, 0, 0, 0.75); }
+    -webkit-box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75);
+    -moz-box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75);
+    box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75); }
