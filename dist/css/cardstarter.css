@@ -1,9 +1,4 @@
 @charset "UTF-8";
-*,
-html,
-body {
-  box-sizing: border-box; }
-
 .card {
   box-sizing: border-box;
   display: inline-block;
@@ -15,7 +10,7 @@ body {
   /* add a default background and border radius */
   background-color: white;
   border-radius: 0.20em;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   /* scale and place the background */
   background-image: url("../images/playing_cards/blue.svg");
   background-repeat: no-repeat;
