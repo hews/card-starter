@@ -14,7 +14,7 @@
    id="svg4423"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="3C.svg">
+   sodipodi:docname="clubs-r03.svg">
   <defs
      id="defs4425" />
   <sodipodi:namedview
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -70,28 +70,6 @@
        id="g3797">
       <g
          id="g6673">
-        <g
-           id="g8353"
-           style="stroke:#000000;stroke-opacity:1">
-          <g
-             id="g8890-2"
-             style="display:inline;stroke:#000000;stroke-opacity:1"
-             transform="translate(-5059.9561,3024.9515)">
-            <rect
-               ry="10.629921"
-               rx="10.629921"
-               style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99673343;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect6351-1"
-               width="223.22835"
-               height="311.81104"
-               x="6481.1577"
-               y="-2746.811" />
-            <g
-               id="g8582-6"
-               transform="matrix(0.30106207,0,0,0.30106207,5635.595,-1948.9541)"
-               style="stroke:#000000;stroke-opacity:1" />
-          </g>
-        </g>
         <g
            id="g6664"
            transform="matrix(1.0120133,0,0,1.0120133,-18.712175,-5.2142811)">

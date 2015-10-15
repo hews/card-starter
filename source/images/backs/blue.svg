@@ -41,7 +41,7 @@
   <defs
      id="defs3777">
     <pattern
-       patternTransform="matrix(-0.11059956,0.11059956,-0.11059956,-0.11059956,-254.02376,74.426221)"
+       patternTransform="matrix(-0.11059956,0.11059956,-0.11059956,-0.11059956,266.02375,-56.614309)"
        id="pattern13545-1"
        xlink:href="#pattern13024-5"
        inkscape:collect="always" />
@@ -248,7 +248,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -258,34 +258,20 @@
      inkscape:label="BLUE_BACK"
      style="display:inline"
      transform="translate(-260.43307,-370.27557)">
-    <g
-       transform="translate(520.04751,-131.04053)"
-       id="g13552"
-       style="display:inline">
-      <rect
-         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-opacity:1"
-         id="rect13537"
-         width="222.22835"
-         height="310.81104"
-         x="-259.11444"
-         y="501.8161"
-         ry="10.629921"
-         rx="10.629921" />
-      <rect
-         style="fill:none;stroke:#131f67;stroke-width:4.95238304;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect13539"
-         width="197.05205"
-         height="286.64417"
-         x="-246.52632"
-         y="513.89954"
-         ry="0" />
-      <rect
-         style="fill:url(#pattern13545-1);fill-opacity:1;stroke:#131f67;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect13541"
-         width="188.27672"
-         height="278.90585"
-         x="-242.13863"
-         y="517.76868" />
-    </g>
+    <rect
+       ry="0"
+       y="382.85901"
+       x="273.52118"
+       height="286.64417"
+       width="197.05205"
+       id="rect13539"
+       style="fill:none;stroke:#131f67;stroke-width:4.95238304;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       y="386.72815"
+       x="277.90887"
+       height="278.90585"
+       width="188.27672"
+       id="rect13541"
+       style="fill:url(#pattern13545-1);fill-opacity:1;stroke:#131f67;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
