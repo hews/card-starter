@@ -2,6 +2,8 @@
 $goldenrod-color: goldenrod;
 $gray-color:      gray;
 $red-color:       red;
+$white-color:     white;
+$black-color:     black;
 $obscured-color:  rgba(200, 200, 200, 0.20);
 $shadow-color:    rgba(0, 0, 0, 0.75);
 
@@ -12,6 +14,8 @@ body {
 }
 
 .card {
+  box-sizing: border-box;
+
   // scss-lint:disable UnnecessaryMantissa
   display: inline-block;
   margin:  0.125em;
@@ -22,8 +26,9 @@ body {
   height: 5.5em;
 
   /* add a default background and border radius */
-  background-color: $gray-color;
+  background-color: $white-color;
   border-radius:    0.20em;
+  border:           1px solid $black-color;
 
   /* scale and place the background */
   background-image:    url("../images/playing_cards/blue.svg");
@@ -63,72 +68,16 @@ body {
     background-image: none;
     background-color: $obscured-color;
 
-    box-sizing: border-box;
     border:     0.15em dashed $goldenrod-color;
   }
 
   /* for debugging */
-  &.debug:not(.outline) {
-    border: 1px solid $red-color;
+  &.no-border {
+    border: 0;
   }
 }
 
-/* remove background color for any "up" card */
-.card.diamonds.ace,   .card.dA,  .card.♦A,
-.card.diamonds.king,  .card.dK,  .card.♦K,
-.card.diamonds.queen, .card.dQ,  .card.♦Q,
-.card.diamonds.jack,  .card.dJ,  .card.♦J,
-.card.diamonds.r10,   .card.d10, .card.♦10,
-.card.diamonds.r09,   .card.d09, .card.♦09,
-.card.diamonds.r08,   .card.d08, .card.♦08,
-.card.diamonds.r07,   .card.d07, .card.♦07,
-.card.diamonds.r06,   .card.d06, .card.♦06,
-.card.diamonds.r05,   .card.d05, .card.♦05,
-.card.diamonds.r04,   .card.d04, .card.♦04,
-.card.diamonds.r03,   .card.d03, .card.♦03,
-.card.diamonds.r02,   .card.d02, .card.♦02,
-.card.hearts.ace,     .card.hA,  .card.♥A,
-.card.hearts.king,    .card.hK,  .card.♥K,
-.card.hearts.queen,   .card.hQ,  .card.♥Q,
-.card.hearts.jack,    .card.hJ,  .card.♥J,
-.card.hearts.r10,     .card.h10, .card.♥10,
-.card.hearts.r09,     .card.h09, .card.♥09,
-.card.hearts.r08,     .card.h08, .card.♥08,
-.card.hearts.r07,     .card.h07, .card.♥07,
-.card.hearts.r06,     .card.h06, .card.♥06,
-.card.hearts.r05,     .card.h05, .card.♥05,
-.card.hearts.r04,     .card.h04, .card.♥04,
-.card.hearts.r03,     .card.h03, .card.♥03,
-.card.hearts.r02,     .card.h02, .card.♥02,
-.card.spades.ace,     .card.sA,  .card.♠A,
-.card.spades.king,    .card.sK,  .card.♠K,
-.card.spades.queen,   .card.sQ,  .card.♠Q,
-.card.spades.jack,    .card.sJ,  .card.♠J,
-.card.spades.r10,     .card.s10, .card.♠10,
-.card.spades.r09,     .card.s09, .card.♠09,
-.card.spades.r08,     .card.s08, .card.♠08,
-.card.spades.r07,     .card.s07, .card.♠07,
-.card.spades.r06,     .card.s06, .card.♠06,
-.card.spades.r05,     .card.s05, .card.♠05,
-.card.spades.r04,     .card.s04, .card.♠04,
-.card.spades.r03,     .card.s03, .card.♠03,
-.card.spades.r02,     .card.s02, .card.♠02,
-.card.clubs.ace,      .card.cA,  .card.♣A,
-.card.clubs.king,     .card.cK,  .card.♣K,
-.card.clubs.queen,    .card.cQ,  .card.♣Q,
-.card.clubs.jack,     .card.cJ,  .card.♣J,
-.card.clubs.r10,      .card.c10, .card.♣10,
-.card.clubs.r09,      .card.c09, .card.♣09,
-.card.clubs.r08,      .card.c08, .card.♣08,
-.card.clubs.r07,      .card.c07, .card.♣07,
-.card.clubs.r06,      .card.c06, .card.♣06,
-.card.clubs.r05,      .card.c05, .card.♣05,
-.card.clubs.r04,      .card.c04, .card.♣04,
-.card.clubs.r03,      .card.c03, .card.♣03,
-.card.clubs.r02,      .card.c02, .card.♣02,
-.card.outline {
-  background-color: transparent;
-}
+
 
 .card.diamonds.ace,   .card.dA, .card.♦A {
   background-image: url("../images/diamonds/diamonds-A.svg");
