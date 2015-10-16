@@ -1,14 +1,18 @@
 linters:
+  PropertySortOrder:
+    enabled: false
+  SpaceAfterComma:
+    style: at_least_one_space
+  SpaceAfterPropertyColon:
+    enabled: false
   StringQuotes:
     style: double_quotes
-  SpaceAfterPropertyColon:
+  UnnecessaryMantissa:
     enabled: false
 
   SelectorFormat:
     enabled: false
   SingleLinePerSelector:
-    enabled: false
-  PropertySortOrder:
     enabled: false
   VendorPrefix:
     enabled: false
