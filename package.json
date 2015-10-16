@@ -1,6 +1,6 @@
 {
   "name": "card-starter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quick start templates for browser-based games that use a standard, 52-card deck.",
   "main": "index.js",
   "directories": {
