@@ -1,4 +1,6 @@
 linters:
+  LeadingZero:
+    enabled: false
   PropertySortOrder:
     enabled: false
   SpaceAfterComma:
@@ -12,15 +14,5 @@ linters:
 
   SelectorFormat:
     enabled: false
-  SingleLinePerSelector:
-    enabled: false
-  VendorPrefix:
-    enabled: false
-  LeadingZero:
-    enabled: false
-  ColorKeyword:
-    enabled: false
   Comment:
-    enabled: false
-  EmptyLineBetweenBlocks:
     enabled: false

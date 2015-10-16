@@ -35,8 +35,6 @@
   .card.no-border {
     border: 0; }
   .card.shadow {
-    -webkit-box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75);
-    -moz-box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75);
     box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75); }
   .card.outline {
     background-image: none;
@@ -328,29 +326,26 @@
    classes/rules, etc. */
 .card.west,
 .card.W {
+  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   margin: auto 0.75em; }
   .card.west.shadow,
   .card.W.shadow {
-    -webkit-box-shadow: 2px -2px 3px 0 rgba(41, 41, 41, 0.75);
-    -moz-box-shadow: 2px -2px 3px 0 rgba(41, 41, 41, 0.75);
     box-shadow: 2px -2px 3px 0 rgba(41, 41, 41, 0.75); }
 
 .card.north,
 .card.N {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg); }
   .card.north.shadow,
   .card.N.shadow {
-    -webkit-box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75);
-    -moz-box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75);
     box-shadow: -2px -2px 3px 0 rgba(41, 41, 41, 0.75); }
 
 .card.east,
 .card.E {
+  -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
   margin: auto 0.75em; }
   .card.east.shadow,
   .card.E.shadow {
-    -webkit-box-shadow: -2px 2px 3px 0 rgba(41, 41, 41, 0.75);
-    -moz-box-shadow: -2px 2px 3px 0 rgba(41, 41, 41, 0.75);
     box-shadow: -2px 2px 3px 0 rgba(41, 41, 41, 0.75); }

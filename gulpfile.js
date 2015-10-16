@@ -3,6 +3,7 @@ var scsslint   = require('gulp-scss-lint');
 var changed    = require('gulp-changed');
 var rename     = require('gulp-rename');
 var sass       = require('gulp-sass');
+var autoprefix = require('gulp-autoprefixer');
 var svgo       = require('imagemin-svgo');
 var minifyCss  = require('gulp-minify-css');
 var sourcemaps = require('gulp-sourcemaps');
@@ -41,6 +42,10 @@ gulp.task('lint-scss', function() {
 gulp.task('compile-scss', ['lint-scss'], function () {
   return gulp.src(paths.sourceScss)
     .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefix({
+      browsers: ['last 2 versions'],
+      cascade: false
+    }))
     .pipe(gulp.dest(paths.distCss))
     .pipe(gulp.dest(paths.examplesCss))
     .pipe(sourcemaps.init())

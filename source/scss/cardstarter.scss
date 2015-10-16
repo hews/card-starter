@@ -13,6 +13,7 @@ $black:     #292929;
 // * CARD IMAGES MIXINS
 // ************************
 
+
 @function short-suit($suit) {
   @return str-slice($suit, 1, 1);
 }
@@ -97,8 +98,6 @@ $black:     #292929;
 // ************************
 
 @mixin drop-shadow($offset-x, $offset-y) {
-  -webkit-box-shadow: $offset-x $offset-y 3px 0 rgba($black, 0.75);
-  -moz-box-shadow:    $offset-x $offset-y 3px 0 rgba($black, 0.75);
   box-shadow:         $offset-x $offset-y 3px 0 rgba($black, 0.75);
 }
 
