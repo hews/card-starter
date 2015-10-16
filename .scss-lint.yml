@@ -1,8 +1,12 @@
 linters:
+  Comment:
+    enabled: false
   LeadingZero:
     enabled: false
   PropertySortOrder:
     enabled: false
+  SelectorFormat:
+    ignored_names: [W, N, E, S]
   SpaceAfterComma:
     style: at_least_one_space
   SpaceAfterPropertyColon:
@@ -10,9 +14,4 @@ linters:
   StringQuotes:
     style: double_quotes
   UnnecessaryMantissa:
-    enabled: false
-
-  SelectorFormat:
-    enabled: false
-  Comment:
     enabled: false
