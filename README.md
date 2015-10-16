@@ -2,6 +2,8 @@
 
 ~~(Travis Build badge) (Bower badge) (NPM badge)~~
 
+<img alt="Queen of Spades" src="https://i.imgur.com/TfdNAIh.png" width="180px">
+
 Quick start templates for creating browser-based games that rely upon a 
 standard, 52-card deck.
 
