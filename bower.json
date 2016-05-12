@@ -9,16 +9,5 @@
   "license": "MIT",
   "homepage": "https://github.com/hews/card-starter",
   "moduleType": ["global"],
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test*",
-    "examples/**/*",
-    "source/**/*",
-    "bower.json",
-    "gulpfile.js",
-    "package.json",
-    "README.md"
-  ]
+  "ignore": []
 }
