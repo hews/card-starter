@@ -5,7 +5,7 @@ var rename     = require('gulp-rename');
 var sass       = require('gulp-sass');
 var autoprefix = require('gulp-autoprefixer');
 var svgo       = require('imagemin-svgo');
-var minifyCss  = require('gulp-minify-css');
+var minifyCss  = require('gulp-clean-css');
 var sourcemaps = require('gulp-sourcemaps');
 
 var es  = require('event-stream');

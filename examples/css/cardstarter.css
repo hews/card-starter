@@ -326,7 +326,6 @@
    classes/rules, etc. */
 .card.west,
 .card.W {
-  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   margin: auto 0.75em; }
   .card.west.shadow,
@@ -335,7 +334,6 @@
 
 .card.north,
 .card.N {
-  -webkit-transform: rotate(180deg);
   transform: rotate(180deg); }
   .card.north.shadow,
   .card.N.shadow {
@@ -343,7 +341,6 @@
 
 .card.east,
 .card.E {
-  -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
   margin: auto 0.75em; }
   .card.east.shadow,
