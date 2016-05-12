@@ -12,7 +12,7 @@ standard, 52-card deck.
 Several options are available:
 
 - **[Download the latest release][release].**
-- Clone the repo: `git clone https://github.com/h4w5/card-starter.git`.
+- Clone the repo: `git clone https://github.com/hews/card-starter.git`.
   The styles and assets are all found in the `/dist` directory.
 - Install with [Bower](http://bower.io): `bower install card-starter`.
 
@@ -65,8 +65,8 @@ Copyright 2015 - Chris Aguilar
 Licensed under LGPL 3 - www.gnu.org/copyleft/lesser.html
 ```
 
-[site]:    http://h4w5.github.io/card-starter
-[release]: https://github.com/h4w5/card-starter/archive/v0.1.0.zip
+[site]:    http://hews.github.io/card-starter
+[release]: https://github.com/hews/card-starter/archive/v0.1.2.zip
 
 [bower-version]: https://img.shields.io/bower/v/card-starter.svg
 [bower-license]: https://img.shields.io/bower/l/card-starter.svg
